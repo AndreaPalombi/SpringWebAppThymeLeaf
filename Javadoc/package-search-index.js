@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"port.springframework.webApp"},{"l":"port.springframework.webApp.bootstrap"},{"l":"port.springframework.webApp.controllers"},{"l":"port.springframework.webApp.model"},{"l":"port.springframework.webApp.repositories"}]

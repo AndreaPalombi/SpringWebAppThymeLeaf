@@ -1,0 +1,5 @@
+port.springframework.webApp
+port.springframework.webApp.bootstrap
+port.springframework.webApp.controllers
+port.springframework.webApp.model
+port.springframework.webApp.repositories
