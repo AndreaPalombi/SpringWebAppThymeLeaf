@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring Framework Guru</title>
+</head>
+<body>
+<h1>Publishers List</h1>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>ADDRESS LINE</th>
+        <th>CITY</th>
+        <th>STATE</th>
+        <th>POSTCODE</th>
+    </tr>
+    <tr th:each="publisher : ${publishers}">
+        <td th:text="${publisher.id}">1234</td>
+        <td th:text="${publisher.name}">name</td>
+        <td th:text="${publisher.address}">sample street</td>
+        <td th:text="${publisher.city}">New york</td>
+        <td th:text="${publisher.state}">USA</td>
+        <td th:text="${publisher.postcode}">1234 5678</td>
+    </tr>
+</table>
+
+</body>
+</html>

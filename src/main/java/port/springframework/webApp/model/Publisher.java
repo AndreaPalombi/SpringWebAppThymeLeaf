@@ -46,6 +46,14 @@ public class Publisher {
         this.postcode = postcode;
     }
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public String getName() {
         return name;
     }
@@ -89,6 +97,8 @@ public class Publisher {
     @Override
     public String toString() {
         return "Publisher{" +
+                "id='" + id + '\'' +
+                "name='" + name + '\'' +
                 "address='" + address + '\'' +
                 ", city='" + city + '\'' +
                 ", state='" + state + '\'' +
