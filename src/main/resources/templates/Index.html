@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>WebApp using Thymeleaf</title>
+    <link th:href="@{/index.css}" rel="stylesheet"/>
+</head>
+<body>
+<h1>WELCOME ON THYMELEAF WEBAPP</h1>
+<div id="menu">
+    <div>
+    <a href="/books">Books</a><br><br>
+        <img src="/book.jpg" alt="book" width="250" height="300">
+    </div>
+    <div>
+    <a href="/authors">Authors</a><br><br>
+        <img src="/author.jpg" alt="author" width="250" height="300">
+    </div>
+    <div>
+    <a href="/publishers">Publishers</a><br><br>
+        <img src="/publisher.jpg" alt="publisher" width="250" height="300">
+    </div>
+</div>
+<footer><h5>Created by Andrea Palombi</h5></footer>
+</body>
+</html>

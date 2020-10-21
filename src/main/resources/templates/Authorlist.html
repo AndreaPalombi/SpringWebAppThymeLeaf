@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Spring Framework Guru</title>
+    <link th:href="@{/index.css}" rel="stylesheet"/>
 </head>
 <body>
-<h1>Author List</h1>
+<h1>AUTHORS LIST</h1>
 
 <table>
     <tr>
@@ -19,5 +20,8 @@
         <td th:text="${author.lastName}">Wrox</td>
     </tr>
 </table>
+<br>
+<a id="home" href="/">Home</a>
+<footer><h5>Created by Andrea Palombi</h5></footer>
 </body>
 </html>
